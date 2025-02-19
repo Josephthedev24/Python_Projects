@@ -1,7 +1,7 @@
 import pyodbc
 ConnectionString = (
     'Driver={ODBC Driver 17 for SQL SERVER};'  #You can find this part from the query 'from odbc data source'
-    'Server=LAPTOP-I5GRB66F\SQLEXPRESS06;'     #You can find this part from the query 'from SQL SERVER 'SELECT @@SERVERNAME'
+    'Server={Servername};'     #You can find this part from the query 'from SQL SERVER 'SELECT @@SERVERNAME'
     'Database=master;'                         #Database that you will use. You can choose the master database to use all the databases you want in just one connection string
     'Trusted_Connection=yes;'
     'UID={Your_Username}'
